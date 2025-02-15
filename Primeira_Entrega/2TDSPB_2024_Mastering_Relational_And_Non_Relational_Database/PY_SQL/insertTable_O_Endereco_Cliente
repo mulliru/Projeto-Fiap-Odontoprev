@@ -1,0 +1,38 @@
+# SÓ EXECUTAR QUANDO A TABELA O_CLIENTE e O_BAIRRO_CLIENTE ESTIVER COM DADOS
+import oracledb
+from datetime import datetime
+
+
+username = 'rm552659'
+password = '171004'
+host = 'oracle.fiap.com.br'
+port = 1521
+service = 'ORCL'
+
+
+    
+connection = oracledb.connect(user=username, password=password, host=host, port=port, service_name=service)
+cursor = connection.cursor()
+
+insert_sql = """
+INSERT INTO O_ENDERECO_CLIENTE (id_endereco, nr_logradouro, ds_complemento_nro, ds_ponto_referencia, id_bairro_cliente, id_cliente)
+VALUES (:id_endereco, :nr_logradouro, :ds_complemento_nro, :ds_ponto_referencia, :id_bairro_cliente, :id_cliente)
+"""
+
+endereco_data = [
+        (1, 'Avenida Paulista', 'Apto 101', 'Próximo ao MASP', 1, 1), 
+        (2, 'Rua da Praia', 'Casa 2', 'Ao lado da sorveteria', 2, 2), 
+        (3, 'Rua das Flores', 'Casa 10', 'Em frente à praça', 3, 3), 
+        (4, 'Avenida Getúlio Vargas', 'Sala 5', 'Próximo ao shopping', 4, 4), 
+        (5, 'Rua dos Lírios', 'Apartamento 34', 'Atrás do supermercado', 5, 5), 
+        (6, 'Estrada da Liberdade', 'Chácara 8', 'Perto do lago', 6, 6), 
+        (7, 'Rua da Paz', 'Casa 1', 'Próximo ao parque', 7, 7), 
+        (8, 'Avenida das Américas', 'Lote 5', 'Em frente à escola', 8, 8), 
+        (9, 'Rua das Acácias', 'Apartamento 22', 'Ao lado da farmácia', 9, 9), 
+        (10, 'Avenida Ipiranga', 'Casa 7', 'Atrás do estádio', 10, 10)  
+    ]
+
+cursor.executemany(insert_sql, endereco_data)
+
+connection.commit()
+print("10 registros inseridos com sucesso.")
