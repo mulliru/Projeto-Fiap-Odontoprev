@@ -1,4 +1,0 @@
-# Ignorar pastas geradas automaticamente pelo .NET
-**/bin/
-**/obj/
-**/wwwroot/lib/
