@@ -1,0 +1,17 @@
+Entrega do Backlog - Challenge QA Odontoprev
+
+Link do Board:
+https://dev.azure.com/Challenge-QA-Odontoprev/QA%20-%20Odontoprev/_backlogs/backlog/QA%20-%20Odontoprev%20Team/Epics
+
+Integrantes do grupo:
+- Murillo Ferreira Ramos
+- Pedro Luiz Prado
+- William Kenzo Hayashi
+
+O board foi estruturado conforme os requisitos apresentados, contendo:
+- Backlog organizado em Épicos, Features e PBIs.
+- Descrição detalhada de cada item.
+- Critérios de aceite definidos.
+- Priorização das tarefas para execução nas sprints.
+
+Caso haja qualquer dúvida ou necessidade de ajustes, estamos à disposição.
