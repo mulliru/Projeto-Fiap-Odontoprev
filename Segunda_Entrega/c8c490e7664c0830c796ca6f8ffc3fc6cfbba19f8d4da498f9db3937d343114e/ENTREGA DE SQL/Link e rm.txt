@@ -1,0 +1,16 @@
+Caso o link do vídeo que está na documentação não funcione:
+
+https://youtu.be/oG7ioart8pY
+
+-----------------------------------------------------------------
+
+Murilo Ferreira Ramos - RM553315
+Pedro Luiz Prado - RM553874
+William Kenzo Hayashi - RM552659
+
+----------------------------------------------------------------
+
+Considerações:
+Na pasta de CRU, temos todos os cruds de cada tabela criando as procedures.
+e existe outra pasta dentro com a criacao do relatorio que fizermos. E para chamar
+o relatorio, a chamada está no CRUD_O_CLIENTE.
