@@ -1,0 +1,19 @@
+Link do Repositório
+
+https://github.com/William-Hayashi/Java_Sprint_3.git
+
+___________________________________________________________________
+
+
+Murilo Ferreira Ramos - RM553315
+Pedro Luiz Prado - RM553874
+William Kenzo Hayashi - RM552659
+
+
+___________________________________________________________________
+
+Caso o link da documentação não funcione:
+https://docs.google.com/document/d/1_4xiCG9Wv9MBtTz5zb-e-cLZ9LVr8VCu/edit?usp=sharing&ouid=104428132100660298228&rtpof=true&sd=true
+
+Caso o link do vídeo que está na documentação não funcione:
+https://youtu.be/vFPm251j0ns
